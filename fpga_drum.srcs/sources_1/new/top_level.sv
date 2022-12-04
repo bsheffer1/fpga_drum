@@ -197,11 +197,6 @@ module top_level(   input clk_100mhz,
                 F_mag <= 32'h48d6d800;
                 n_f <= 3;
                 m_f <= 5;
-            /* 11-30-2022 - commenting out force inputs from pad since they weren't working */
-           /* end else if (f_out) begin
-                F_mag <= f_out;
-                n_f <= x_out;
-                m_f <= y_out;*/
             end else begin
                 F_mag <= 0;
                 n_f <= 0;
